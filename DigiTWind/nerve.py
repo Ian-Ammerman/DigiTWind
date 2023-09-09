@@ -186,3 +186,12 @@ class NerveVirtual:
 
         if os.path.isfile(os.path.join(of_file.FAST_runDirectory,MDoutname)):
           os.rename(os.path.join(of_file.FAST_runDirectory,MDoutname), os.path.join(outdir,MDoutname))
+
+class NerveLinear:
+    def __init__(self,Lin_Hydro,Lin_Platform,Lin_Outputs)
+        self.Lin_Hydro = Lin_Hydro
+        self.LinPlatform = Lin_Platform
+        self.Lin_Outputs = Lin_Outputs
+
+    def readFASTLinear(filepath):
+        
